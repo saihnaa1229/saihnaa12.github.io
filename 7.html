@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>lab 7</title>
+	<style type="text/css">
+		#p1{
+			margin-left: 75px;
+			background: lightgreen;
+			height: 100px;
+			width: 200px;
+			padding: 25px 0px;
+			text-align: center;
+			font-size: 250%;
+			border: 3px solid black;
+			border-radius: 15px;
+			transform: skewY(-30deg);
+			animation: skew 3s infinite linear;
+		}
+		@keyframes skew{
+			0%{ transform: skewY(0deg); }
+			11%{ transform: skewY(30deg); }
+			22%{ transform: skewY(0deg); }
+			33%{ transform: skewY(-30deg); }
+			44%{ transform: skewY(0); }
+			55%{ transform: skewX(0deg); }
+			66%{ transform: skewX(30deg); }
+			77%{ transform: skewX(0deg); }
+			88%{ transform: skewX(-30deg); }
+			100%{ transform: skewX(0); }
+		}
+	</style>		
+</head>
+<body>
+<H1>lab5-7</H1>
+		<div id="p1">Skewing Text</div>
+</body>	
+</html>
